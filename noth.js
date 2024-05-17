@@ -39,6 +39,7 @@ if (prompt == '4') {
 platform.src = "ddJ/GameModel/platform.png";
 
 
+
 var xPosition = canvas.width / 2;
 var yPosition = canvas.height / 2;
 var prevYPosition = yPosition; // Предыдущая позиция персонажа по оси Y
