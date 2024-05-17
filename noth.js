@@ -7,8 +7,6 @@ var platform = new Image();
 
 var prompt = prompt('выберите персонажа за которого хотите играть. Ниндзя - 1, барашек - 2, кролик - 3, космонавт - 4')
 
-var scrollSpeed = 3; // Скорость опускания экрана
-
 // Функция для отрисовки изображений после их загрузки
 function drawImagesOnLoad() {
   if (unit.complete && bg.complete && platform.complete) {
@@ -44,7 +42,7 @@ platform.src = "ddJ/GameModel/platform.png";
 var xPosition = canvas.width / 2;
 var yPosition = canvas.height / 2;
 var prevYPosition = yPosition; // Предыдущая позиция персонажа по оси Y
-var gravity = 1;
+var gravity = 2;
 var platformWidth = 100;
 var platformY = canvas.height - 50; // Начальная позиция платформ
 var platformX = (canvas.width - platformWidth) / 2; // Центр холста по горизонтали
