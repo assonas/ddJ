@@ -21,22 +21,22 @@ bg.onload = drawImagesOnLoad;
 platform.onload = drawImagesOnLoad;
 
 // Пути к изображениям
-bg.src = "/ddJ/GameModel/bg.png";
+bg.src = "ddJ/GameModel/bg.png";
 
 if (prompt == '1') {
-  unit.src = "/ddJ/GameModel/unit.png";
+  unit.src = "ddJ/GameModel/unit.png";
 }
 if (prompt == '2') {
-  unit.src = "/ddJ/GameModel/unit2.png";
+  unit.src = "ddJ/GameModel/unit2.png";
 }
 if (prompt == '3') {
-  unit.src = "/ddJ/GameModel/unit3.png";
+  unit.src = "ddJ/GameModel/unit3.png";
 }
 if (prompt == '4') {
-  unit.src = "/ddJ/GameModel/unit4.png";
+  unit.src = "ddJ/GameModel/unit4.png";
 }
 
-platform.src = "/ddJ/GameModel/platform.png";
+platform.src = "ddJ/GameModel/platform.png";
 
 
 var xPosition = canvas.width / 2;
