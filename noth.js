@@ -141,21 +141,3 @@ function move(event) {
 function instr(){
   alert('Персонаж управляется при помощи стрелочек влево и вправо. Новые платформы появляются только после того, как он отпрыгнет от второй снизу платформы. Удачи, дорогой игрок.');
 }
-function move_left(event){
-  const key = event.key;
-
-  switch (key) {
-    case 'ArrowLeft':
-      xPosition -= 45;
-      break;
-}
-}
-  function move_right(event){
-  const key = event.key;
-
-    switch (key) {
-    case 'ArrowRight':
-      xPosition += 45;
-      break;
-}
-  }
